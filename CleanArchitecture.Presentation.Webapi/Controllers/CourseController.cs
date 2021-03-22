@@ -1,6 +1,11 @@
 ﻿using CleanArchitecture.Application.CQRS.Courses.Commands.Register;
+using CleanArchitecture.Application.CQRS.Courses.Queries.GetAll;
+using CleanArchitecture.Application.CQRS.Courses.Queries.GetById;
+using CleanArchitecture.Application.Interfaces.Generics;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 
 namespace CleanArchitecture.Presentation.Webapi.Controllers
 {
@@ -16,10 +21,22 @@ namespace CleanArchitecture.Presentation.Webapi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register([FromBody] RegisterCourseCommand command)
+        public Task<IResponse> Register([FromBody] RegisterCourseCommand command)
         {
-            var course = mediator.Send(command).Result;
-            return Ok();
+            return mediator.Send(command);
+        }
+
+        [HttpGet]
+        public Task<IResponse> GetAll()
+        {
+            return mediator.Send(new GetAllCourseQuery());
+        }
+
+        [HttpGet]
+        [Route("GetById")]
+        public Task<IResponse> GetById([FromQuery] Guid courseId)
+        {
+            return mediator.Send(new GetByIdCourseQuery(courseId));
         }
 
     }

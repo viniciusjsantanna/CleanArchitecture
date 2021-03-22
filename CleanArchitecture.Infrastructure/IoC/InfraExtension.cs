@@ -1,5 +1,7 @@
 ﻿using CleanArchitecture.Application.Interfaces.Generics;
+using CleanArchitecture.Application.Interfaces.Repositories;
 using CleanArchitecture.Infrastructure.Context;
+using CleanArchitecture.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,6 +18,7 @@ namespace CleanArchitecture.Infrastructure.IoC
             });
 
             services.AddTransient<IEFContext, EFContext>();
+            services.AddTransient<ICourseRepository, CourseRepository>();
         }
     }
 }

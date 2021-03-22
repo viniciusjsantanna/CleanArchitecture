@@ -1,9 +1,10 @@
 ﻿using CleanArchitecture.Application.Interfaces.Generics;
 using CleanArchitecture.Application.Interfaces.Repositories;
 using CleanArchitecture.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace CleanArchitecture.Infrastructure.Repositories
@@ -17,16 +18,24 @@ namespace CleanArchitecture.Infrastructure.Repositories
             this.context = context;
         }
 
-        public async Task<Course> Add(Course Course)
+        public async Task<int> Add(Course Course)
         {
             await context.Courses.AddAsync(Course);
-            var retorno = context.SaveChangesAsync().Result;
-            if(retorno <= 0)
-            {
-                throw new Exception("Não foi possível adicionar o curso!");
-            }
+            return await context.SaveChangesAsync();
+        }
+        public Task<bool> Any(Expression<Func<Course, bool>> expression)
+        {
+            return context.Courses.AnyAsync(expression);
+        }
 
-            return Course;
+        public Task<Course> Get(Expression<Func<Course, bool>> expression)
+        {
+            return context.Courses.FirstOrDefaultAsync(expression);
+        }
+
+        public async Task<IList<Course>> GetAll()
+        {
+            return await context.Courses.ToListAsync();
         }
     }
 }

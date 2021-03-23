@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Bf6bAfvSK2u/C6JS2NknU3Ofn3vNq+heJIoPp9XDKY1ABjl2nknPRitvaJaAYrA11NY3fngZX5p6+HquYKBSew==",
+  "dgSpecHash": "7U8dLCVGK+q/j1N+2kLEMwlYWHz1qbLzInLd8bh7YyCxR0Cl3ZBXmuT8t5lGXB6Bh/bChvCK59pByb6frf8tiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\139988\\Desktop\\Aulas\\CleanArchitecture\\CleanArchitecture.Presentation.Webapi\\CleanArchitecture.Presentation.Webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\139988\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\139988\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\139988\\.nuget\\packages\\fluentvalidation\\9.5.3\\fluentvalidation.9.5.3.nupkg.sha512",
+    "C:\\Users\\139988\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.5.3\\fluentvalidation.dependencyinjectionextensions.9.5.3.nupkg.sha512",
     "C:\\Users\\139988\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\139988\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\139988\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

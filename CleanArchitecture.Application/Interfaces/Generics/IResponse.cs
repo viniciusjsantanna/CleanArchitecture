@@ -7,6 +7,6 @@ namespace CleanArchitecture.Application.Interfaces.Generics
 {
     public interface IResponse
     {
-        Task<IResponse> Generate(object collections = default, string message = default, bool hasError = default);
+        Task<IResponse> Generate(object collections = default, string message = default, bool hasError = default, List<string> errorMessages = default);
     }
 }

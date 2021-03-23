@@ -19,7 +19,7 @@ namespace CleanArchitecture.Presentation.Webapi.Controllers
         {
             this.mediator = mediator;
         }
-
+        
         [HttpPost]
         public Task<IResponse> Register([FromBody] RegisterCourseCommand command)
         {

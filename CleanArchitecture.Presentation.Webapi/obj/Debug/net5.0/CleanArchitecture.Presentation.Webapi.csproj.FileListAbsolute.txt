@@ -69,3 +69,5 @@ C:\Users\139988\Desktop\Aulas\CleanArchitecture\CleanArchitecture.Presentation.W
 C:\Users\139988\Desktop\Aulas\CleanArchitecture\CleanArchitecture.Presentation.Webapi\obj\Debug\net5.0\ref\CleanArchitecture.Presentation.Webapi.dll
 C:\Users\139988\Desktop\Aulas\CleanArchitecture\CleanArchitecture.Presentation.Webapi\obj\Debug\net5.0\CleanArchitecture.Presentation.Webapi.pdb
 C:\Users\139988\Desktop\Aulas\CleanArchitecture\CleanArchitecture.Presentation.Webapi\obj\Debug\net5.0\CleanArchitecture.Presentation.Webapi.genruntimeconfig.cache
+C:\Users\139988\Desktop\Aulas\CleanArchitecture\CleanArchitecture.Presentation.Webapi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\139988\Desktop\Aulas\CleanArchitecture\CleanArchitecture.Presentation.Webapi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

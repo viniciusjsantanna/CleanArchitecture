@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zGJFw4isq8VIpJMcTPe2X3y4zmd9uO4OiszUzN0bDS8Q6nMuN+Lb7Qlle8BGmeN6RvGddGsJTiu3dSCUCD2Fuw==",
+  "dgSpecHash": "Z+engoWGcgAa4FkZxso7m4GCAvVU68Ybze9AmJt5Ljho1gYYWiay4beD8KE5BkyYQ4bHOfOCrshsh2SwHEGocw==",
   "success": true,
   "projectFilePath": "C:\\Users\\139988\\Desktop\\Aulas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\139988\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\139988\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\139988\\.nuget\\packages\\fluentvalidation\\9.5.3\\fluentvalidation.9.5.3.nupkg.sha512",
+    "C:\\Users\\139988\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.5.3\\fluentvalidation.dependencyinjectionextensions.9.5.3.nupkg.sha512",
     "C:\\Users\\139988\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\139988\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\139988\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

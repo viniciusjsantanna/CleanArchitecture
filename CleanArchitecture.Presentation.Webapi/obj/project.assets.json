@@ -1681,7 +1681,6 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "CleanArchitecture.Application": "1.0.0",
-          "CleanArchitecture.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.4"
         },

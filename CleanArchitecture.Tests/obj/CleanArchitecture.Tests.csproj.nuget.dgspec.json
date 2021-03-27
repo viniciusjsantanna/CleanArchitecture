@@ -172,9 +172,6 @@
             "projectReferences": {
               "C:\\Users\\139988\\Desktop\\Aulas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
                 "projectPath": "C:\\Users\\139988\\Desktop\\Aulas\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
-              },
-              "C:\\Users\\139988\\Desktop\\Aulas\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-                "projectPath": "C:\\Users\\139988\\Desktop\\Aulas\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
               }
             }
           }
